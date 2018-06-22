@@ -1,5 +1,4 @@
 # Git 101 Guide For Projects
-#Pluralsight/projects
 
 [Projects](https://www.pluralsight.com/product/projects) are a new hands-on way to learn on Pluralsight. They follow real-world practices and workflows which may new if you’ve never worked in the technologies before.
 
@@ -53,14 +52,80 @@ In order to start working on a Project, you’ll need a starting point – that
 
 To fork a repository, sign into GitHub and visit the original webpage for the repository.  For example, if the Project asked you to fork a repository at the URL [GitHub - adamfortuna/HelloPluralsightProject: Demonstration on how projects work at Pluralsight.](https://github.com/adamfortuna/HelloPluralsightProject), then you would open that up in your browser and click the “Fork” button.
 
-[img]
+![Click Fork](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/fork/01-click_fork.png)
 
 If you are a member of any organizations (companies) on GitHub, you may be prompted with a question on where to fork this repository to. All Pluralsight Projects assume you’re working out of your personal account, so make sure to choose to fork to that location.
 
-[img]
+![Fork to your account](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/fork/02-fork_to.png)
 
 After a few seconds, the fork of this repository should show up in your account!
 
+
+![The fork will show up in your account](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/fork/03-fork_success.png)
+
 ## Cloning a Repository from GitHub
 
-Once you have your fork
+Once you have your fork created, you'll need to get a copy of this code locally. You may initially think "I'll click the 'download zip'" option - but don't! That will cause trouble later on.
+
+![The fork will show up in your account](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/01-do_not_download.png)
+
+The reason for this is because that will download the files in this repository now, but it will not allow us to easily upload the files back to GitHub once we've made changes.
+
+Instead, we'll need to "Clone" to repository down from GitHub onto our local machine. There are three common ways to clone the repository. You can use whichever one you are most familiar with.
+
+1. Use the git command line interface (CLI) and a terminal.
+2. Use a git client like [GitHub Desktop](https://desktop.github.com/) or [Tower](https://www.git-tower.com/).
+3. Use git integration in your code editor of choice, like [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/).
+
+Behind the scenes, all of these are using the command line to interface with git and GitHub. Here's a super quick walkthrough of how to clone using one from each group.
+
+### Cloning a Repository Using the Command Line
+
+Cloning from the command line is probably the easiest to explain, but requires the deepest knowledge of git. There are only two steps which is nice!
+
+![Copy the Repository URL](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/cmd-01-copy_url.png)
+
+Open up your terminal and paste this URL with `git clone` in front of it.
+
+```bash
+git clone https://github.com/adamfortuna/HelloPluralsightProject.git
+```
+
+When you run this command in your terminal, you'll see something like this.
+
+![Cloning the Repository in Your Terminal](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/cmd-02-terminal.png)
+
+After the `git clone` command completes, you'll have a folder matching the name of your project -- in this case "HelloPluralsightProject".
+
+### Cloning a Repository Using GitHub Desktop
+
+[GitHub Desktop](https://desktop.github.com/) is my favorite recommendation for beginners learning git. It has a user interface rather than a command line, so it requires less research into how git works. If you've installed GitHub Desktop, try this flow for downloading your code.
+
+GitHub makes using GitHub Desktop extremely easy by providing this single click way to clone the repository.
+
+![Cloning the Repository in Your Terminal](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/gh-01-click.png)
+
+Clicking this button will launch the GitHub Desktop Application and prefill it with all information needed to clone the repository.
+
+![Cloning the Repository in Your Terminal](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/gh-02-confirm.png)
+
+After clicking "Clone", GitHub Desktop will download all the code for this project to your local machine. At that point you're good to go! If you right click on the repository, you can choose to open it in Atom (if installed), the command line or just the folder with the code.
+
+### Cloning a Repository Using Visual Studio Code
+
+[Visual Studio Code](https://code.visualstudio.com/) is amazing editor that has Git integration built right in.
+
+Open up the Command Palatte by going to "View > Command Palatte" or entering the key command (cmd+shift+P) for Mac, (cmd+shift+P) for Windows. Type "clone" into the Command Palatte and hit enter.
+
+![Cloning the Repository in Your Terminal](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/vs-01-command.png)
+
+Like with the command line approach, you'll need to know the GitHub repository URL. You can grab that from the Git Repository Page.
+
+![Copy the Repository URL](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/cmd-01-copy_url.png)
+
+
+Enter that into the Clone field in Visual Studio Code and hit enter.
+
+![Copy the Repository URL](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/vs-02-url.png)
+
+VS Code will prompt you to select a location to store this repository locally, then start downloading it to that location.
