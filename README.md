@@ -129,3 +129,50 @@ Enter that into the Clone field in Visual Studio Code and hit enter.
 ![Copy the Repository URL](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/clone/vs-02-url.png)
 
 VS Code will prompt you to select a location to store this repository locally, then start downloading it to that location.
+
+## Open The Code In Your Editor
+
+Now that you have all of the code locally, you can begin working on this project! Open up the entire folder for this project in your editor of choice.
+
+Every Pluralsight Project is different and requires it's own setup. Follow the instructions to setup this project locally and install it's dependencies. Once it's installed and confirmed to be working, you're ready to start coding!
+
+## Pushing Code Changes to GitHub
+
+Once you've completed some number of tasks within a project, you can upload those changes to GitHub. This process is called "pushing code to GitHub". Whenever you see "pushing code" think about it as "uploading code" or even "syncing code".
+
+This process is a little different for each way you can interact with Git. Here are three of the most common ways to push code to GitHub.
+
+### Pushing to GitHub Using the Command Line
+
+The first step to pushing/uploading your code to GitHub is to take a snapshot of this version of your code and add it to the repository. You know how Time Machine needs to take a snapshot of all your files to back them up? Git is similar to that.
+
+Because of that, pushing your code to GitHub is a two step process:
+
+1. "Commit" your changes to your local repository.
+2. "Push" all changes in your local repository to GitHub.
+
+In your local terminal try running these two commands to perform these actions:
+
+```bash
+git commit -am "Completed the project"
+git push
+```
+
+#### Common Problems Pushing to GitHub
+
+**If GitHub asks for your username and password but then claims they are incorrect,** then you likely have 2-factor authentication setup. When you authenticate, you'll need to use a a GitHub Personal Access Token rather than your password. Try [creating a new access token](https://github.com/settings/tokens) (with `repo` permissions), and using that token instead of your password.
+
+**If GitHub claims you don't have access to this repository,** then it's likely that your SSH settings aren't correct in some way. Try following the GitHub guide on using [SSH Keys](https://help.github.com/articles/connecting-to-github-with-ssh/) and adding your own to your [GitHub Account](https://github.com/settings/keys).
+
+
+### Pushing to GitHub Using the GitHub Desktop
+
+To write...
+
+### Pushing to GitHub Using the Visual Studio Code
+
+To write...
+
+## Have a Question?
+
+Do you have a question about Projects? Do you need additional help with Git? Please reach out to Pluralsight Support and provide as much information as possible about the issue you're running into and we'll do our best to help out.
