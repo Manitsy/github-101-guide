@@ -167,7 +167,16 @@ git push
 
 ### Pushing to GitHub Using the GitHub Desktop
 
-To write...
+Once you've made any updates to the code in your project, you can use GitHub Desktop to send those changes to GitHub.
+
+Once you open up GitHub Desktop, you'll see something like the screenshot below. From this view, provide a commit message and click commit. A commit message is like a change log - something to look back it to understand what change you made to the code.
+
+![Commit](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/push/gh-1-commit.png)
+
+Once your code is committed locally, you're ready to push your code to GitHub! Click the "Push origin" button which will sync your code with GitHub.
+
+![Push](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/push/gh-1-push.png)
+
 
 ### Pushing to GitHub Using the Visual Studio Code
 
