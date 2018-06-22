@@ -171,7 +171,21 @@ To write...
 
 ### Pushing to GitHub Using the Visual Studio Code
 
-To write...
+VS Code makes integration with GitHub shockingly easy - if you know how to use it. I had to Google around and hunt for what to do, but once I found it, I appreciated how simple it is.
+
+1. Click on the "Version Control" logo on the side of the editor.
+2. Commit your changes to your local repository.
+3. Provide a commit message explaining what changes you made to the code.
+4. Push your changes to GitHub.
+
+These three tasks are tough to describe because they are all icon based on the interface. Follow these two screenshots to see where you can click.
+
+![Commit](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/push/vs-1-commit.png)
+
+Once your code is committed locally, you're ready to push your code to GitHub!
+
+![Push](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/push/vs-1-push.png)
+
 
 ## Have a Question?
 
