@@ -175,7 +175,7 @@ Once you open up GitHub Desktop, you'll see something like the screenshot below.
 
 Once your code is committed locally, you're ready to push your code to GitHub! Click the "Push origin" button which will sync your code with GitHub.
 
-![Push](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/push/gh-1-push.png)
+![Push](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/push/gh-2-push.png)
 
 
 ### Pushing to GitHub Using the Visual Studio Code
