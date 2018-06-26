@@ -193,7 +193,7 @@ These three tasks are tough to describe because they are all icon based on the i
 
 Once your code is committed locally, you're ready to push your code to GitHub!
 
-![Push](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/push/vs-1-push.png)
+![Push](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/push/vs-2-push.png)
 
 
 ## Have a Question?
