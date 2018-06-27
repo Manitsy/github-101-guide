@@ -10,7 +10,7 @@ The flow of every project follows the same structure:
 4. Get this project working on your local computer.
 5. Complete some number of code tasks.
 6. Upload your code (by pushing it to GitHub).
-7. Pluralsight checks your work and verifies everything is correct!  If it’s not, we’ll also give you feedback about what needs to be fixed to make each code task correct.
+7. Pluralsight checks your work and verifies everything is correct! If it’s not, we’ll also give you feedback about what needs to be fixed to make each code task correct.
 
 One of the common themes for all Pluralsight Projects is the use of Git and GitHub, which is a requirement for all projects. This guide walks you through everything you need to know to use Git and GitHub in order to complete a Pluralsight Project.
 
@@ -53,7 +53,7 @@ What this permission does is allow us to know that you are you, and give you cre
 ## Forking a Repository on GitHub
 When you start working on a Project, you’ll be asked to **fork** a Project repository that already exists at one of Pluralsight’s organizations on GitHub.  “Forking a repository” means making a copy of someone else’s repository (Pluralsight’s) into your own account on GitHub. You can think of a “repository” as a folder of code annotated with all the version history with it.
 
-To fork a repository, sign into GitHub and visit the original webpage for the repository on GitHub (not Pluralsight).  For example, if the Project asked you to fork a repository at the URL [GitHub - adamfortuna/HelloPluralsightProject: Demonstration on how projects work at Pluralsight.](https://github.com/adamfortuna/HelloPluralsightProject), then you would open that up in a new browser tab or window and click the “Fork” button.
+To fork a repository, sign into GitHub and visit the original webpage for the repository on GitHub (not Pluralsight).  For example, if the Project asked you to fork a repository at the URL [GitHub - pluralsight-projects/HelloPluralsightProject: Demonstration on how projects work at Pluralsight.](https://github.com/pluralsight-projects/HelloPluralsightProject), then you would open that up in a new browser tab or window and click the “Fork” button.
 
 ![Click Fork](https://raw.githubusercontent.com/pluralsight-projects/github-101-guide/master/images/fork/01-click_fork.png)
 
@@ -90,7 +90,7 @@ Cloning from the command line is probably the easiest to explain, but requires t
 Open up your terminal and paste this URL with `git clone` in front of it.
 
 ```bash
-git clone https://github.com/adamfortuna/HelloPluralsightProject.git
+git clone https://github.com/pluralsight-projects/HelloPluralsightProject.git
 ```
 
 When you run this command in your terminal, you'll see something like this.
@@ -165,7 +165,7 @@ git push
 
 **If GitHub claims you don't have access to this repository,** then it's likely that your SSH settings aren't correct in some way. Try following the GitHub guide on using [SSH Keys](https://help.github.com/articles/connecting-to-github-with-ssh/) and adding your own to your [GitHub Account](https://github.com/settings/keys).
 
-### Option 2: Pushing to GitHub Using the GitHub Desktop
+### Option 2: Pushing to GitHub Using GitHub Desktop
 
 Once you've made any updates to the code in your project, you can use GitHub Desktop to send those changes to GitHub.
 
